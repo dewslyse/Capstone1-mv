@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav aria-label="top-navigation">
+        <nav aria-label="top-navigation" class="top-navigation">
             <ul>
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -28,11 +28,11 @@
             </ul>
         </nav>
 
-        <div>
+        <div class="hamburger"></div>
+        <div class="navbar">
             <a href="./index.html">
                 <img src="./images/summit-logo.png" alt="Home - TIBCS">
             </a>
-            <div class="hamburger"></div>
             <nav aria-label="primary-navigation">
                 <ul>
                     <li><a href="./about.html">About</a></li>
@@ -46,12 +46,18 @@
 
     <main>
         <section class="hero-about">
-            <h1>
-                <span>The International Biodiversity</span>
-                <span>Conservation Summit</span>
-                <span>2022</span>
+            <h1 class="hero-caption about-hero-caption">
+                <span class="caption-intro">“Hello! Nature lovers”</span>
+                <span class="caption-main">International</span>
+                <span class="caption-main">Conservation</span>
+                <span class="caption-main">Summit 2022</span>
             </h1>
-            <p>
+            <p class="about-text">
+                The International Biodiversity Conservation Summit is recognized as the most important international
+                meeting for conservation professionals and students. This year, the conference will take place at the
+                Trondheim Science Museum from the 24 – 25 March, 2022.
+            </p>
+            <p class="about-text desktop">
                 The International Biodiversity Conservation Summit is recognized as the most important international
                 meeting for conservation professionals and students. This year, the conference will take place at the
                 Trondheim Science Museum from the 24 – 25 March, 2022.
@@ -60,51 +66,69 @@
                 religion, and more.
             </p>
             <div>
-                <p>
+                <p class="about-contact">
                     Please contact us for any further questions about the Biodiversity Conservation summit 2022!
                 </p>
-                <a href="mailto:summit2022@tibcs-conf.org">summit2022@tibcs-conf.org</a>
-                <span><i class="fas fa-chevron-right"></i></span>
+                <a class="about-email" href="mailto:summit2022@tibcs-conf.org">summit2022@tibcs-conf.org</a>
+                <!-- <span><i class="fas fa-chevron-right"></i></span> -->
             </div>
         </section>
 
         <section class="abt-summit-logo">
-            <h2>The International Biodiversity Conservation Summit 2022 Logo</h2>
-            <p>
+            <h2 class="main-caption about-heading">The International Biodiversity Conservation Summit 2022 Logo</h2>
+            <p class="about-logo-text">
+                The logo for this year’s summit was decided through the logo competition from 8. January to 30. January.
+            </p>
+
+            <p class="desktop">
                 The logo for this year’s summit was decided through the logo competition from 8. January to 30. January.
                 After online public voting and the Selection committee’s judging process, the logo from John Doe won the
                 prize.
             </p>
             <div>
-                <img src="./images/summit-logo.png" alt="summit logo" aria-hidden="true">
+                <img class="about-logo" src="./images/summit-logo.png" alt="summit logo" aria-hidden="true">
             </div>
         </section>
 
         <section class="past-summits">
-            <h2>See past Conservation Summits</h2>
-            <p>
+            <h2 class="main-caption about-heading">See past Conservation Summits</h2>
+            <p class="about-logo-text">
                 Take a look at the last two Biodiversity Conservation Summits which took place in Nairobi and in Warsaw
             </p>
-            <a href="#">
-                <img src="./images/summit-2020.png" alt="2020 Conservation summit">
-                <h3>2020</h3>
-                <h4>Biodiversity Conservation Summit 2020 in Nairobi</h4>
+            <a class="event-card" href="#">
+                <div class="event-card-text">
+                    <h3>2020</h3>
+                    <h4>Conservation Summit 2020 in Nairobi</h4>
+                </div>
             </a>
-            <a href="#">
-                <img src="./images/summit-2018.png" alt="2018 Conservation summit">
-                <h3>2018</h3>
-                <h4>Biodiversity Conservation Summit 2018 in Warsaw</h4>
+            <a class="e2018" href="#">
+                <div class="event-card-text">
+                    <h3>2018</h3>
+                    <h4>Biodiversity Conservation Summit 2018 in Warsaw</h4>
+                </div>
             </a>
+        </section>
+
+        <section class="partners">
+            <h2 class="main-caption">Partners</h2>
+            <div class="partners-container">
+                <img class="partner" src="./images/RSPB.png" alt="">
+                <img class="partner" src="./images/FFI.png" alt="">
+                <img class="partner" src="./images/Science-AAAS.png" alt="">
+                <img class="partner" src="./images/FFI.png" alt="">
+                <img class="partner" src="./images/CCI.png" alt="">
+            </div>
         </section>
     </main>
 
-    <footer class="footer-about">
+    <footer class="footer-home">
+        <a href="/index.html">
+            <img class="footer-logo" src="./images/IBCG-logo.png" alt="">
+        </a>
         <div>
-            <img src="./images/IBCG-logo-white.png" alt="">
-        </div>
-        <div>
-            <h4>2022 The International Biodiversity Conservation Group. Some Rights Reserved.</h4>
-            <p>
+            <h4 class="footer-credit">2022 The International Biodiversity Conservation Group.<span class="hidden">Some
+                    Rights Reserved</span></h4>
+            <p class="hidden">
                 This is a dummy conference website meant for educational purposes only. Original design by Cindy Shin.
             </p>
         </div>

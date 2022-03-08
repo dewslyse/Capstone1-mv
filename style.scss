@@ -61,7 +61,6 @@ body {
   padding-top: 30px;
   background-image: url(./images/Caption-bg.png);
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -79,7 +78,8 @@ body {
   display: block;
 }
 
-.hero-text {
+.hero-text,
+.about-text {
   background-color: $light-grey;
   border: 3px solid #fff;
   padding: 16px;
@@ -263,4 +263,102 @@ body {
 
 .hidden {
   display: none;
+}
+
+///ABOUT PAGE///
+//Hero Section
+.hero-about {
+  text-align: center;
+  padding: 80px 18px 50px;
+  background-color: $light-grey;
+}
+
+.about-hero-caption {
+  color: $orange;
+}
+
+.about-text {
+  background-color: white;
+  border-color: $grey;
+  margin: 40px 0 30px;
+}
+
+.desktop {
+  display: none;
+}
+
+.about-contact {
+  line-height: 1.6;
+}
+
+.about-email {
+  color: $black;
+  font-weight: 700;
+  line-height: 2;
+  text-underline-offset: 5px;
+  text-decoration-color: $orange;
+}
+
+//About Summit Logo
+.abt-summit-logo {
+  padding: 40px 50px;
+  text-align: center;
+  border-bottom: 2px solid $light-grey;
+}
+
+.about-heading {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.about-logo-text {
+  padding: 20px 0 40px;
+}
+
+.about-logo {
+  max-width: 375px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid $grey;
+  padding: 12px;
+  margin: 0 auto;
+}
+
+//Past summits
+.past-summits {
+  padding: 40px;
+  text-align: center;
+}
+
+.event-card,
+.e2018 {
+  position: relative;
+  aspect-ratio: 375 / 204;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lighten($color: $orange, $amount: 5);
+  background-image: url(./images/summit-2020.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  margin: 0 0 20px;
+}
+
+.e2018 {
+  background-image: url(./images/summit-2018.png);
+}
+
+.event-card-text {
+  position: absolute;
+  color: #fff;
+
+  h3 {
+    font-size: 2.5rem;
+    line-height: 1.75;
+  }
+
+  h4 {
+    font-weight: 400;
+  }
 }
