@@ -43,10 +43,14 @@ header {
 .hero-caption {
   font-family: "COCOGOOSE", sans-serif;
   font-size: 2.25rem;
-  color: #ec5242;
+  color: transparent;
   text-transform: uppercase;
   line-height: 1.1;
   padding-top: 30px;
+  background-image: url(./images/Caption-bg.png);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .caption-intro {
