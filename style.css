@@ -64,6 +64,7 @@ header {
 }
 
 .hero-text {
+  background-color: #f7f7f8;
   border: 3px solid #fff;
   padding: 16px;
   font-size: 1rem;
@@ -159,4 +160,118 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.speakers {
+  padding: 50px 16px 0;
+}
+
+.speakers-container {
+  margin: 40px 0 0;
+}
+
+.speaker-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 50px;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.speaker-img {
+  width: 100px;
+  height: auto;
+}
+
+.speaker-name {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.speaker-position {
+  color: #ec5242;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  position: relative;
+  padding: 0 0 12px;
+}
+
+.speaker-position::after {
+  content: "";
+  height: 2px;
+  width: 30px;
+  background-color: #d3d3d3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.speaker-text {
+  margin: 12px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.partners {
+  background-color: #2e2e2e;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.partners-container {
+  margin: 50px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  row-gap: 30px;
+}
+
+.partner {
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+  opacity: 0.5;
+  width: 130px;
+}
+
+.partner:hover {
+  opacity: 1;
+}
+
+.footer-home {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.footer-credit {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
 }

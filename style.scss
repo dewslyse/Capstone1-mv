@@ -1,6 +1,8 @@
 $black: #272a31;
 $orange: #ec5242;
+$very-dark-grey: #2e2e2e;
 $grey: #d3d3d3;
+$light-grey: #f7f7f8;
 $lato: 'Lato', sans-serif;
 $cocogoose: 'COCOGOOSE', sans-serif;
 
@@ -61,6 +63,7 @@ header {
 }
 
 .hero-text {
+  background-color: $light-grey;
   border: 3px solid #fff;
   padding: 16px;
   font-size: 1rem;
@@ -144,4 +147,103 @@ header {
   font-size: 1.25rem;
   width: 80%;
   justify-content: center;
+}
+
+//Featured Speakers
+.speakers {
+  padding: 50px 16px 0;
+}
+
+.speakers-container {
+  margin: 40px 0 0;
+}
+
+.speaker-desc {
+  display: flex;
+  margin: 0 0 50px;
+  column-gap: 15px;
+}
+
+.speaker-img {
+  width: 100px;
+  height: auto;
+}
+
+.speaker-name {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.speaker-position {
+  color: $orange;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  position: relative;
+  padding: 0 0 12px;
+
+  &::after {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: $grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.speaker-text {
+  margin: 12px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+//Partners Section
+.partners {
+  background-color: $very-dark-grey;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.partners-container {
+  margin: 50px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 30px;
+}
+
+.partner {
+  filter: contrast(200%);
+  opacity: 0.5;
+  width: 130px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+//Footer
+.footer-home {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.footer-credit {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
 }
