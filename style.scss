@@ -84,27 +84,27 @@ header {
 
 //PROGRAM SECTION
 .program {
-    padding: 50px 16px 60px;
-    background-image: url(./images/pattern.png);
-    background-color: $black;
-    color: #fff;
+  padding: 50px 16px 60px;
+  background-image: url(./images/pattern.png);
+  background-color: $black;
+  color: #fff;
 }
 
 .main-caption {
-    text-align: center;
-    position: relative;
-    padding-bottom: 16px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 16px;
 
-    &::after {
-        content: "";
-        height: 2px;
-        width: 50px;
-        background-color: $orange;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-    transform: translate(-50%,0);
-    }
+  &::after {
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: $orange;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 .program-cards-container {
@@ -112,12 +112,12 @@ header {
 }
 
 .program-card {
-    background-color: rgba(255, 255, 255, 0.1);
-    display: flex;
-    padding: 20px 5px 20px 12px;
-    margin-bottom: 12px;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  padding: 20px 5px 20px 12px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .program-card-title {
