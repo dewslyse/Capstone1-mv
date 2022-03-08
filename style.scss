@@ -1,1 +1,147 @@
-// font-family: 'Lato', sans-serif;
+$black: #272a31;
+$orange: #ec5242;
+$grey: #d3d3d3;
+$lato: 'Lato', sans-serif;
+$cocogoose: 'COCOGOOSE', sans-serif;
+
+@font-face {
+  font-family: 'COCOGOOSE';
+  font-style: normal;
+  font-weight: 400;
+  src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: none;
+}
+
+//HERO SECTIONS
+.hero {
+  background-image: url(./images/header-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 74px 18px;
+}
+
+.hero-caption {
+  font-family: $cocogoose;
+  font-size: 2.25rem;
+  color: $orange;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding-top: 30px;
+}
+
+.caption-intro {
+  font-family: $lato;
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: $orange;
+  display: block;
+  text-transform: initial;
+  padding-bottom: 12px;
+}
+
+.caption-main {
+  display: block;
+}
+
+.hero-text {
+  border: 3px solid #fff;
+  padding: 16px;
+  font-size: 1rem;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.hero-dates {
+  font-family: $cocogoose;
+  font-size: 1.25rem;
+  color: $black;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.hero-location {
+  color: $black;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+//PROGRAM SECTION
+.program {
+    padding: 50px 16px 60px;
+    background-image: url(./images/pattern.png);
+    background-color: $black;
+    color: #fff;
+}
+
+.main-caption {
+    text-align: center;
+    position: relative;
+    padding-bottom: 16px;
+
+    &::after {
+        content: "";
+        height: 2px;
+        width: 50px;
+        background-color: $orange;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    transform: translate(-50%,0);
+    }
+}
+
+.program-cards-container {
+  margin: 36px 0 48px;
+}
+
+.program-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    padding: 20px 5px 20px 12px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.program-card-title {
+  font-size: 0.9375rem;
+  color: $orange;
+  text-align: left;
+  flex-basis: 22%;
+}
+
+.program-card-text {
+  font-size: 0.8125rem;
+  padding: 0 5px 0 0;
+  line-height: 1.6;
+  flex-basis: 55%;
+}
+
+.join-summit {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  background-color: $orange;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.25rem;
+  width: 80%;
+  justify-content: center;
+}
