@@ -27,7 +27,20 @@ body {
   flex-direction: column;
 }
 
-header {
+.top-navigation {
+  display: none;
+}
+
+.hamburger {
+  content: url(./images/menu.png);
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 24px;
+  left: 28px;
+}
+
+.navbar {
   display: none;
 }
 
@@ -36,7 +49,7 @@ header {
   background-image: url(./images/header-bg-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 74px 18px;
+  padding: 80px 18px 74px;
 }
 
 .hero-caption {
