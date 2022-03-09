@@ -520,4 +520,28 @@ body {
     background-color: unset;
     font-size: 1rem;
   }
+
+  //Featured Speakers
+  .speakers-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    margin: 50px auto 40px;
+  }
+
+  .speaker-desc {
+    column-gap: 20px;
+  }
+
+  .speaker-img {
+    width: 150px;
+  }
+
+  .speaker-profile {
+    margin-top: 12px;
+  }
+
+  .speaker-name {
+    font-size: 1.25rem;
+  }
 }
