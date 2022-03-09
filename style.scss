@@ -477,4 +477,47 @@ body {
   .hero-location {
     font-size: 1.5rem;
   }
+
+  //Program section
+  .program {
+    padding: 60px 0 70px;
+  }
+
+  .main-caption {
+    font-size: 1.75rem;
+  }
+
+  .program-cards-container {
+    display: flex;
+    margin: 50px auto 40px;
+    justify-content: space-between;
+  }
+
+  .program-card {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: calc(20% - 4px);
+
+    &:hover {
+      border: 2px solid $grey;
+    }
+  }
+
+  .program-card-title {
+    font-size: 1.3125rem;
+    margin: 12px 0;
+  }
+
+  .program-card-text {
+    font-size: 0.9375rem;
+  }
+
+  .join-summit {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-underline-offset: 3px;
+    background-color: unset;
+    font-size: 1rem;
+  }
 }

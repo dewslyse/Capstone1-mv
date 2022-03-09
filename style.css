@@ -500,4 +500,47 @@ body {
   .hero-location {
     font-size: 1.5rem;
   }
+  .program {
+    padding: 60px 0 70px;
+  }
+  .main-caption {
+    font-size: 1.75rem;
+  }
+  .program-cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px auto 40px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .program-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: calc(20% - 4px);
+  }
+  .program-card:hover {
+    border: 2px solid #d3d3d3;
+  }
+  .program-card-title {
+    font-size: 1.3125rem;
+    margin: 12px 0;
+  }
+  .program-card-text {
+    font-size: 0.9375rem;
+  }
+  .join-summit {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-underline-offset: 3px;
+    background-color: unset;
+    font-size: 1rem;
+  }
 }
