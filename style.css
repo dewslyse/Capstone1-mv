@@ -14,19 +14,12 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: block;
+}
+
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .header {
@@ -133,7 +126,7 @@ body {
 }
 
 .program-cards-container {
-  margin: 36px 0 48px;
+  margin: 36px auto 48px;
 }
 
 .program-card {
@@ -177,7 +170,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   font-size: 1.25rem;
-  width: 80%;
+  width: 70%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -188,7 +181,7 @@ body {
 }
 
 .speakers-container {
-  margin: 40px 0 0;
+  margin: 40px auto 0;
 }
 
 .speaker-desc {
@@ -243,7 +236,7 @@ body {
 }
 
 .partners-container {
-  margin: 50px 0 20px;
+  margin: 50px auto 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,9 +392,6 @@ body {
 }
 
 @media (min-width: 1110px) {
-  body {
-    display: block;
-  }
   .wrapper {
     max-width: 1100px;
     margin: 0 auto;

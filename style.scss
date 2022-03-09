@@ -21,10 +21,12 @@ $cocogoose: 'COCOGOOSE', sans-serif;
 
 body {
   font-family: 'Lato', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: block;
+}
+
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .header {
@@ -132,7 +134,7 @@ body {
 }
 
 .program-cards-container {
-  margin: 36px 0 48px;
+  margin: 36px auto 48px;
 }
 
 .program-card {
@@ -166,7 +168,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   font-size: 1.25rem;
-  width: 80%;
+  width: 70%;
   justify-content: center;
 }
 
@@ -176,7 +178,7 @@ body {
 }
 
 .speakers-container {
-  margin: 40px 0 0;
+  margin: 40px auto 0;
 }
 
 .speaker-desc {
@@ -229,7 +231,7 @@ body {
 }
 
 .partners-container {
-  margin: 50px 0 20px;
+  margin: 50px auto 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,10 +371,6 @@ body {
 
 //MEDIA QUERIES
 @media (min-width: 1110px) {
-  body {
-    display: block;
-  }
-
   .wrapper {
     max-width: 1100px;
     margin: 0 auto;
