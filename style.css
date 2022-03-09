@@ -565,4 +565,30 @@ body {
   .speaker-name {
     font-size: 1.25rem;
   }
+  .partners-container {
+    margin: 50px auto 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 16px;
+            column-gap: 16px;
+    row-gap: 30px;
+  }
+  .footer-logo {
+    width: 300px;
+    margin-top: 10px;
+  }
+  .hidden {
+    display: inline-block;
+  }
+  .footer-credit {
+    font-size: 1rem;
+  }
 }

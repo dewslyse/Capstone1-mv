@@ -544,4 +544,29 @@ body {
   .speaker-name {
     font-size: 1.25rem;
   }
+
+  //Partners Section
+  .partners-container {
+    margin: 50px auto 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 30px;
+  }
+
+  //Footer Section
+  .footer-logo {
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .hidden {
+    display: inline-block;
+  }
+
+  .footer-credit {
+    font-size: 1rem;
+  }
 }
