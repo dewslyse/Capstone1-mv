@@ -48,7 +48,7 @@ body {
   display: none;
 }
 
-//HERO SECTIONS
+//HERO SECTION
 .hero {
   background-image: url(./images/header-bg-mobile.png);
   background-repeat: no-repeat;
@@ -383,7 +383,7 @@ body {
     background-color: $very-dark-grey;
     display: block;
   }
-  
+
   .navbar-top {
     height: 36px;
     display: flex;
@@ -391,7 +391,7 @@ body {
     align-items: center;
   }
 
-  .top-menu, 
+  .top-menu,
   .menu {
     display: flex;
   }
@@ -402,7 +402,7 @@ body {
     font-size: 0.875rem;
     margin-left: 20px;
   }
-  
+
   .top-menu-link {
     text-decoration: none;
     color: #fff;
@@ -450,5 +450,31 @@ body {
     padding: 10px 15px;
   }
 
+  //Hero section
+  .hero {
+    padding: 50px 0 80px;
+    background-image: url(./images/header-bg-desktop.png);
+  }
 
+  .hero-caption {
+    font-size: 5rem;
+  }
+
+  .caption-intro {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    border: 5px solid #fff;
+    width: 70%;
+  }
+
+  .hero-dates {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .hero-location {
+    font-size: 1.5rem;
+  }
 }

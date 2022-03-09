@@ -479,4 +479,25 @@ body {
     color: #ec5242;
     padding: 10px 15px;
   }
+  .hero {
+    padding: 50px 0 80px;
+    background-image: url(./images/header-bg-desktop.png);
+  }
+  .hero-caption {
+    font-size: 5rem;
+  }
+  .caption-intro {
+    font-size: 2.5rem;
+  }
+  .hero-text {
+    border: 5px solid #fff;
+    width: 70%;
+  }
+  .hero-dates {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .hero-location {
+    font-size: 1.5rem;
+  }
 }
