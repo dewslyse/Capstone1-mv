@@ -46,8 +46,66 @@ body {
   left: 28px;
 }
 
+.hamburger.hide {
+  content: url(./images/close.png);
+  z-index: 101;
+  background-color: $light-grey;
+  padding: 7px;
+  border-radius: 50%;
+}
+
 .navbar {
   display: none;
+}
+
+.navbar.show {
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 99.9vh;
+  z-index: 100;
+  padding: 100px 0 30px 0;
+  background-color: $black;
+  border-bottom-right-radius: 60px;
+  border-right: 5px solid $orange;
+  border-bottom: 5px solid $orange;
+  background-image: url(./images/IBCG-logo-white.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom 50px right 50%;
+
+  .logo {
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    margin-bottom: 48px;
+  }
+
+  .menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .campaign {
+    position: absolute;
+    font-size: 1.125rem;
+    padding: 6px 12px;
+    border: 2px solid $orange;
+    border-radius: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 20px 0 0 0;
+  }
 }
 
 //HERO SECTION
