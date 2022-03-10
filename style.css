@@ -452,6 +452,12 @@ body {
   font-weight: 400;
 }
 
+@media (min-width: 768px) {
+  .hero-caption {
+    font-size: 3.5rem;
+  }
+}
+
 @media (min-width: 1110px) {
   .wrapper {
     max-width: 1100px;
