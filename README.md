@@ -1,60 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Module 1 Capstone project
 
-> Description the project.
+## International Conservation Summit 2022
 
+> This is a capstone project for the first module of the Microverse curriculum. In this project, I built a dummy website for a biodiversity conservation conference. 
+
+## Screenshot
+
+<img src="./images/screenshot.png">
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS/SCSS
+- Flexbox
+- CSS Grid
+- JavaScript
+- Mobile-first workflow
 
-## Live Demo (if available)
+## Live site 🚀
 
-[Live Demo Link](https://livedemo.com)
+🔗 [Live Site Link](https://dewslyse.github.io/Capstone1-mv/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow this simple step:
 
+- Clone repository to your local machine: `git clone git@github.com:dewslyse/Capstone1-mv.git`
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **dewslyse**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dewslyse](https://github.com/dewslyse)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcomed!
 
 Feel free to check the [issues page](../../issues/).
 
@@ -64,10 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
