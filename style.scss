@@ -119,12 +119,15 @@ body {
 .hero-caption {
   font-family: $cocogoose;
   font-size: 2.25rem;
-  color: transparent;
+  color: rgba(236, 83, 66, 0.75);
   text-transform: uppercase;
   line-height: 1.1;
   padding-top: 30px;
+  background-color: $orange;
   background-image: url(./images/Caption-bg.png);
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   -webkit-background-clip: text;
 }
 
@@ -551,6 +554,7 @@ body {
 
   .hero-caption {
     font-size: 5rem;
+    color: rgba(236, 83, 66, 0);
   }
 
   .caption-intro {
